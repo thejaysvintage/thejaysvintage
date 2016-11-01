@@ -1,0 +1,359 @@
+/*
+When viewing desktop websites on mobile devices, browsers usually layout the page at a fixed width of about 980 CSS pixels due to the default viewport settings. The user usually can't read the text when the page is initially displayed, but can zoom in to read it. However on a portrait phone screen, once zoomed in such that text is a legible size, only about a 320 CSS pixel wide area of content fits onscreen at a time.
+*/
+
+body {
+    background-image: url("images/tiles.gif");
+    background-repeat: repeat;
+    background-color: white;
+    color: black;
+    font-family: 'CherryCreamSoda', Helvetica, sans-serif;
+    font-style: normal;
+/*    font-size: 1.0625em;*/
+font-size:15px;
+   /* 
+   17px;
+   red=#EA2020
+   light blue=#82E8F6
+   pink=#FFBAD7
+   white=#FFFFFF
+   black=#000000
+   grey=#585858
+   */
+}
+
+h1 {
+    color: black;
+    background: #82E8F6;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2.8125em; 
+    /*45px;*/
+    }
+    
+h2 {
+    color: white;
+    background-color: #FFBAD7;
+    border-radius: 10px;
+    padding: 7px; 
+    height: 30px;
+    font-size: 1.75em;
+    /*28px;*/
+}
+
+h3 {
+    font-size: 1.3125em;
+    /*21px;*/
+}
+
+.textbox-area {
+	color: black;
+	background: #FFFFFF;
+	border-radius: 10px;
+	padding: 10px; 
+}
+
+main {
+    top:50px;
+}
+
+@font-face {
+	font-family: 'CherryCreamSoda';
+	src: url('misc/CherryCreamSoda.ttf'); 
+	src: local('Cherry Cream Soda'),
+	     local('Cherry-Cream-Soda'),
+             url('misc/CherryCreamSoda.ttf') 
+	     format('truetype');
+}
+@font-face {
+/*This thin font requires a larger font-size than CherryCreamSoda*/
+	font-family: 'AirAmericana';
+	src: url('misc/Air Americana.ttf'); 
+	src: local('Air Americana'),
+	     local('Air-Americana'),
+             url('misc/Air Americana.ttf') 
+	     format('truetype');
+}
+@font-face {
+	font-family: 'AtomicAge-Regular';
+	src: url('misc/AtomicAge-Regular.ttf'); 
+	src: local('AtomicAge-Regular'),
+	     local('AtomicAge-Regular'),
+             url('misc/AtomicAge-Regular.ttf') 
+	     format('truetype');
+}
+@font-face {
+	font-family: 'MouseMemoirs-Regular';
+	src: url('misc/MouseMemoirs-Regular.ttf'); 
+	src: local('MouseMemoirs-Regular'),
+	     local('MouseMemoirs-Regular'),
+             url('misc/MouseMemoirs-Regular.ttf') 
+	     format('truetype');
+}
+
+ul {
+    list-style-image: url('images/bulletrecord.gif');
+}
+
+li {
+	/*margin: 0px 0px 3px 0px;*/
+	padding: 1px;
+}
+
+img {
+	border: 0;
+}
+
+.menu {
+	color: black;
+	background: #FFFFFF;
+	border-radius: 10px;
+	padding: 10px;  
+}
+
+
+
+#photoPageControlsAbove {
+	color: blue;width:100%;background-color:#EEEEEE;
+}
+#photoPageControlsBelow {
+	color: blue;width:100%;background-color:#EEEEEE;
+}
+.pageControl {
+	cursor: pointer; display: inline;background-color:#EEEEEE;
+}
+#photosArea {
+	background: #EEEEEE;
+	display: inline-block;
+	padding:2px;
+}
+.polaroids {
+	background: #EEEEEE;
+	margin:0px;
+	padding:1px;
+}
+.polaroid {
+	background: #EEEEEE;
+	display: inline-block;
+	padding:2px;
+}
+.polaroidTable {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	display: inline-block;
+}
+.albumArea {
+	padding-top: 20px;
+}
+.albumInfo {
+	padding-left: 5px;padding-top: 10px; background-color:#EEEEEE;
+}
+.albumTitle {
+	font-weight: 900;
+}
+.photocellrow {
+	height: 315px;
+	max-height: 315px;
+}
+.photocell {
+	background: #FFFFFF;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border: none;
+	width: 300px;
+	height: 300px;
+	max-width: 300px;
+	max-height: 300px;
+}
+.photoH {
+	width: 300px;	
+	display: block;
+	margin: 0px;
+}
+.photoV {
+	height: 300px;	
+	display: block;
+	margin: auto;
+}
+.phototextrow {
+	height: 70px;
+	max-height: 70px;
+}
+.phototextcell {
+	background: #FFFFFF;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: top;
+	border:none;
+width: 300px;
+}
+
+.largePolaroids {
+	background: #EEEEEE;
+	margin:0px;
+	padding:10px;	
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index: 96;
+}
+.largePolaroid {
+	background: #EEEEEE;
+	display: inline-block;
+	padding:1px;
+	cursor: pointer; 
+}
+.largePolaroidTable {
+	border: 1px solid #000000;
+	border-collapse: collapse;
+	display: inline-block;
+}
+.largePhotocellrow {	
+	height:100%;
+}
+.largePhotocell {
+	background: #FFFFFF;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border: none;
+}
+.largePhotoH {		
+	display: block;
+	margin: 0px;
+	width:100%;
+}
+.largePhototextrow {
+	height: 70px;
+	max-height: 70px;
+}
+.largePhototextcell {
+	background: #FEFFFF;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	text-align: left;
+	vertical-align: top;
+	border:none;
+}
+#bigPhoto1 {
+	display: none;
+}
+#bigPhoto2 {
+	display: none;
+}
+#bigPhoto3 {
+	display: none;
+}
+#controls {
+	cursor: pointer; position: absolute;display: none
+}
+#buttonStart {
+	cursor: pointer; display: block;background-color: #DDDDDD;padding:2px;
+}
+#buttonPlay {
+	position: fixed; top: 10px; left: 10px; z-index: 100; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 20px; border-radius: 10px;
+}
+#buttonPause {
+	position: fixed; top: 10px; left: 10px; z-index: 100; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 20px; border-radius: 10px;
+}
+#buttonClose {
+	position: fixed; top: 10px; right: 10px; z-index: 100; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 23px; border-radius: 10px;
+}
+#buttonPrevious {
+	position: fixed; top: 50%; left: 10px; z-index: 99; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 32px; border-radius: 10px;
+}
+#buttonNext {
+	position: fixed; top: 50%; right: 10px; z-index: 99; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 32px; border-radius: 10px;
+}
+#buttonDownload {
+	position: fixed; top: 90px; right: 10px; z-index: 98; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 15px; border-radius: 10px;
+}
+
+
+
+.infoBlock {
+	display: block;
+}
+.boxPanelNoBorder {
+	min-width: 400px;
+	width: 400px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+.boxPanel {
+	min-width: 400px;
+	width: 400px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+.boxPanelDoubleWidthNoBorder {
+	min-width: 819px;
+	width: 819px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+.boxPanelDoubleWidth {
+	min-width: 817px;
+	width: 817px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}
+.boxHeading {
+	font-size: 15px;
+	font-weight: bold;
+}
+.boxHeadingArea {
+	width:100%;
+	padding: 5px;
+}
+.boxInfoArea {
+	padding: 5px;
+}
+.boxImageSmaller {
+	width:100px;
+	height:auto;
+}
+.boxImage {
+	width:150px;
+	height:auto;
+}
+.boxImageBigger {
+	width:200px;
+	height:auto;
+}
+.boxImageBiggest {
+	width:370px;
+	height:auto;
+}
+.boxImageDoubleWidth {
+	width:810px;
+	height:auto;
+}
+
+
+
+
+
