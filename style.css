@@ -3,28 +3,34 @@ When viewing desktop websites on mobile devices, browsers usually layout the pag
 */
 
 body {
+/*
     background-image: url("images/tiles.gif");
     background-repeat: repeat;
-    background-color: white;
+*/
+    background-color: #48484a;
     color: black;
     font-family: 'CherryCreamSoda', Helvetica, sans-serif;
     font-style: normal;
 /*    font-size: 1.0625em;*/
 font-size:15px;
-   /* 
-   17px;
-   red=#EA2020
-   light blue=#82E8F6
-   pink=#FFBAD7
-   white=#FFFFFF
-   black=#000000
-   grey=#585858
-   */
+
+
+/* 
+ The Jays Vintage Colour scheme
+ orange	= #E06451
+ red	= #FC0F3E
+ cream	= #EDEAD8
+ grey	= #48484a
+*/
+}
+
+a, a:visited{
+     color: #E06451;
 }
 
 h1 {
     color: black;
-    background: #82E8F6;
+    background: #EDEAD8;
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -35,8 +41,8 @@ h1 {
     }
     
 h2 {
-    color: white;
-    background-color: #FFBAD7;
+    color: black;
+    background-color: #EDEAD8;
     border-radius: 10px;
     padding: 7px; 
     height: 30px;
@@ -50,8 +56,8 @@ h3 {
 }
 
 .textbox-area {
-	color: black;
-	background: #FFFFFF;
+	color: #edead8;
+	background: #48484a;
 	border-radius: 10px;
 	padding: 10px; 
 }
@@ -109,7 +115,7 @@ img {
 
 .menu {
 	color: black;
-	background: #FFFFFF;
+	background: #48484a;
 	border-radius: 10px;
 	padding: 10px;  
 }
