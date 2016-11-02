@@ -20,12 +20,13 @@ font-size:15px;
 
 
 /* 
- The Jays Vintage Colour scheme
- orange	= #E06451
- red	= #FC0F3E
- cream	= #EDEAD8
- dark grey = #030303
- grey	= #48484a
+ The Jays Vintage Colour scheme v1
+ grey	= #48484a	Background
+ cream	= #EDEAD8	Default Text
+ orange	= #E06451	Links
+ red	= #FC0F3E	Text highlighting
+ blue	= #2CA1B6	Text highlighting
+ dark grey = #030303	Darker area background
 */
 }
 
@@ -34,10 +35,10 @@ a, a:visited{
 }
 
 h1 {
-font-family: 'RemachineScript_PERSONAL_USE_ONLY', Helvetica, sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size:80px;
+    font-family: 'RemachineScript_PERSONAL_USE_ONLY', Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size:80px;
     color: #EDEAD8;
     background: #333333;
     border-radius: 10px;
@@ -45,14 +46,11 @@ font-size:80px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-
-    /*    font-size: 2.8125em; 
-45px;*/
-    }
+}
     
 h2 {
-    color: black;
-    background-color: #EDEAD8;
+    color: #EDEAD8;
+    background-color: #333333;
     border-radius: 10px;
     padding: 7px; 
     height: 30px;
