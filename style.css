@@ -27,6 +27,7 @@ font-size:15px;
  red	= #FC0F3E	Text highlighting
  blue	= #2CA1B6	Text highlighting
  dark grey = #030303	Darker area background
+ grey lighter = #616164 Photo Buttons
 */
 }
 
@@ -125,6 +126,44 @@ li {
 	padding: 1px;
 }
 
+#contactList
+{
+	list-style: none inside;
+}
+
+#contactList #liPhone
+{
+	background: url('images/bulletphone.gif') no-repeat top left;
+	padding: 5px 1px 1px 28px;
+}
+#contactList #liEmail
+{
+	background: url('images/bulletemail.gif') no-repeat top left;
+	padding: 5px 1px 1px 28px;
+}
+#contactList #liFacebook
+{
+	background: url('images/bulletfacebook.gif') no-repeat top left;
+	padding: 5px 1px 1px 28px;
+}
+#contactList #liYouTube
+{
+	background: url('images/bulletyoutube.gif') no-repeat top left;
+	padding: 5px 1px 1px 28px;
+}
+#contactList #liTwitter
+{
+	background: url('images/bullettwitter.gif') no-repeat top left;
+	padding: 5px 1px 1px 28px;
+}
+#contactList #liWebsite
+{
+	background: url('images/bulletwebsite.gif') no-repeat top left;
+	padding: 5px 1px 1px 28px;
+}
+
+
+
 img {
 	border: 0;
 }
@@ -139,26 +178,26 @@ img {
 
 
 #photoPageControlsAbove {
-	color: blue;width:100%;background-color:#EEEEEE;
+	color: #FF33EB; width:100%; background-color:#48484a;
 }
 #photoPageControlsBelow {
-	color: blue;width:100%;background-color:#EEEEEE;
+	color: #FF33EB; width:100%; background-color:#48484a;
 }
 .pageControl {
-	cursor: pointer; display: inline;background-color:#EEEEEE;
+	cursor: pointer; display: inline;background-color:#48484a;
 }
 #photosArea {
-	background: #EEEEEE;
+	background: #48484a;
 	display: inline-block;
 	padding:2px;
 }
 .polaroids {
-	background: #EEEEEE;
+	background: #48484a;
 	margin:0px;
 	padding:1px;
 }
 .polaroid {
-	background: #EEEEEE;
+	background: #48484a;
 	display: inline-block;
 	padding:2px;
 }
@@ -171,10 +210,11 @@ img {
 	padding-top: 20px;
 }
 .albumInfo {
-	padding-left: 5px;padding-top: 10px; background-color:#EEEEEE;
+	padding-left: 5px;padding-top: 10px; background-color:#48484a;
 }
 .albumTitle {
 	font-weight: 900;
+	font-size: 20px;
 }
 .photocellrow {
 	height: 315px;
@@ -208,6 +248,7 @@ img {
 }
 .phototextcell {
 	background: #FFFFFF;
+	color: #0000AA;
 	padding-top: 0px;
 	padding-right: 10px;
 	padding-bottom: 10px;
@@ -215,11 +256,11 @@ img {
 	text-align: left;
 	vertical-align: top;
 	border:none;
-width: 300px;
+	width: 300px;
 }
 
 .largePolaroids {
-	background: #EEEEEE;
+	background: #48484a;
 	margin:0px;
 	padding:10px;	
 	position: fixed;
@@ -232,7 +273,7 @@ width: 300px;
 	z-index: 96;
 }
 .largePolaroid {
-	background: #EEEEEE;
+	background: #48484a;
 	display: inline-block;
 	padding:1px;
 	cursor: pointer; 
@@ -263,7 +304,8 @@ width: 300px;
 	max-height: 70px;
 }
 .largePhototextcell {
-	background: #FEFFFF;
+	background: #FFFFFF;
+	color: #0000AA;
 	padding-top: 0px;
 	padding-right: 10px;
 	padding-bottom: 10px;
@@ -285,25 +327,25 @@ width: 300px;
 	cursor: pointer; position: absolute;display: none
 }
 #buttonStart {
-	cursor: pointer; display: block;background-color: #DDDDDD;padding:2px;
+	cursor: pointer; display: block;background-color: #DDDDDD; color: black; padding:2px;
 }
 #buttonPlay {
-	position: fixed; top: 10px; left: 10px; z-index: 100; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 20px; border-radius: 10px;
+	position: fixed; top: 10px; left: 10px; z-index: 100; width: auto; background-color: #616164; color: black; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 20px; border-radius: 10px;
 }
 #buttonPause {
-	position: fixed; top: 10px; left: 10px; z-index: 100; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 20px; border-radius: 10px;
+	position: fixed; top: 10px; left: 10px; z-index: 100; width: auto; background-color: #616164; color: black; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 20px; border-radius: 10px;
 }
 #buttonClose {
-	position: fixed; top: 10px; right: 10px; z-index: 100; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 23px; border-radius: 10px;
+	position: fixed; top: 10px; right: 10px; z-index: 100; width: auto; background-color: #616164; color: black; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 23px; border-radius: 10px;
 }
 #buttonPrevious {
-	position: fixed; top: 50%; left: 10px; z-index: 99; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 32px; border-radius: 10px;
+	position: fixed; top: 50%; left: 10px; z-index: 99; width: auto; background-color: #616164; color: black; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 32px; border-radius: 10px;
 }
 #buttonNext {
-	position: fixed; top: 50%; right: 10px; z-index: 99; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 32px; border-radius: 10px;
+	position: fixed; top: 50%; right: 10px; z-index: 99; width: auto; background-color: #616164; color: black; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 32px; border-radius: 10px;
 }
 #buttonDownload {
-	position: fixed; top: 90px; right: 10px; z-index: 98; width: auto; background-color: #DDDDDD; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 15px; border-radius: 10px;
+	position: fixed; top: 90px; right: 10px; z-index: 98; width: auto; background-color: #616164; display: inline;padding: 16px; vertical-align: middle;text-align: center; font-weight: bold; font-size: 15px; border-radius: 10px;
 }
 
 
