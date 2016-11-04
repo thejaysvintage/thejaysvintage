@@ -47,6 +47,7 @@ h1 {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+    margin: 0px 5px 5px 0px;
 }
     
 h2 {
@@ -57,6 +58,7 @@ h2 {
     height: 30px;
     font-size: 1.75em;
     /*28px;*/
+    margin: 10px 0px 10px 0px;
 }
 
 h3 {
@@ -119,6 +121,7 @@ main {
 
 ul {
     list-style-image: url('images/bulletlips.gif');
+    margin: 2px 0px 5px 0px;
 }
 
 li {
@@ -133,32 +136,37 @@ li {
 
 #contactList #liPhone
 {
-	background: url('images/bulletphone.gif') no-repeat top left;
+	background: url('images/bulletlips.gif') no-repeat top left;
 	padding: 5px 1px 1px 28px;
 }
 #contactList #liEmail
 {
-	background: url('images/bulletemail.gif') no-repeat top left;
+	background: url('images/bulletlips.gif') no-repeat top left;
 	padding: 5px 1px 1px 28px;
 }
 #contactList #liFacebook
 {
-	background: url('images/bulletfacebook.gif') no-repeat top left;
+	background: url('images/bulletlips.gif') no-repeat top left;
 	padding: 5px 1px 1px 28px;
 }
 #contactList #liYouTube
 {
-	background: url('images/bulletyoutube.gif') no-repeat top left;
+	background: url('images/bulletlips.gif') no-repeat top left;
 	padding: 5px 1px 1px 28px;
 }
 #contactList #liTwitter
 {
-	background: url('images/bullettwitter.gif') no-repeat top left;
+	background: url('images/bulletlips.gif') no-repeat top left;
 	padding: 5px 1px 1px 28px;
 }
 #contactList #liWebsite
 {
-	background: url('images/bulletwebsite.gif') no-repeat top left;
+	background: url('images/bulletlips.gif') no-repeat top left;
+	padding: 5px 1px 1px 28px;
+}
+#contactList #liAndyBGoode
+{
+	background: url('images/bulletlips.gif') no-repeat top left;
 	padding: 5px 1px 1px 28px;
 }
 

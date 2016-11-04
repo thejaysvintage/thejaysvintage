@@ -16,28 +16,19 @@
 ,
 {
  "title":"THE JAYS VINTAGE",
- "desc":"I am also proud to be part of a 1940s Vocal Vintage Tribute Group with some lovely ladies. We sing Andrews sisters, Bing Crosby, Frank Sinatra, Dean Martin style songs.",
+ "desc":"We are proud to be part of a 1940s Vocal Vintage Tribute Group. We really enjoy singing Andrews sisters, Bing Crosby, Frank Sinatra, Dean Martin style songs together.",
  "published":"YES",
  "folder":"photos/",
  "urlTitle":"The Jays Facebook Page", "url":"https://www.facebook.com/TheJaysVintage",
  "photos":[
-  {"img":"thejays0005","cap":"I'm just leaning on the lamp post...","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0016","cap":"The Jays love to sing vintage classics","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0014","cap":"A relaxed shot on the bridge of Andrew, Sophie and Jo (left to right).","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0015","cap":"We have alot of fun together... and wear great shoes!","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0005","cap":"Andrew... I'm just leaning on the lamp post...","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0005x","cap":"Sophie...","tags":"","date":"","download":"-highres","published":"NO"},
+  {"img":"thejays0005xx","cap":"Jo...","tags":"","date":"","download":"-highres","published":"NO"},
   {"img":"thejays0004","cap":"Fly me to the moon","tags":"","date":"","download":"-highres","published":""},
   {"img":"thejays0003","cap":"A Cheeky Jays Shot","tags":"","date":"","download":"-highres","published":""}
- ]
-}
-,
-{
- "title":"THE FIRST FEW YEARS",
- "desc":"During the first couple of years years we were a 5 piece vocal group. Unfortunately Jen left us due to life/work pressures at the end of 2014. Jane had to retire to pregancy. Although we are a smaller group, change brings new opportunities.",
- "published":"YES",
- "folder":"photos/",
- "urlTitle":"The Jays Facebook Page", "url":"https://www.facebook.com/TheJaysVintage",
- "photos":[
-  {"img":"thejays0001","cap":"The Jays at Tamworth Castle Grounds","tags":"","date":"","download":"-highres","published":""},
-  {"img":"thejays0006","cap":"The Jays perform at Tamworth Band Stand","tags":"","date":"","download":"-highres","published":""},
-  {"img":"thejays0002","cap":"The Jays at Tamworth Castle Grounds amongst the flowers in 2015","tags":"","date":"","download":"-highres","published":""},
-  {"img":"thejays0008","cap":"The Jays Vocal Vintage Tribute Group from Tamworth Staffordshire","tags":"","date":"","download":"-highres","published":""}
  ]
 }
 ,
@@ -58,7 +49,7 @@
 {
  "title":"PRIVATE PARTIES / EVENTS",
  "desc":"Birthday Parties are always fun",
- "published":"YES",
+ "published":"No",
  "folder":"photos/",
  "urlTitle":"", "url":"",
  "photos":[
@@ -72,7 +63,7 @@
 {
  "title":"VINTAGE FETES / FAYRES",
  "desc":"We all love Village Summer Fetes and Vintage Fayres.",
- "published":"YES",
+ "published":"NO",
  "folder":"photos/",
  "urlTitle":"", "url":"",
  "photos":[
@@ -95,9 +86,24 @@
  "urlTitle":"The Jays Facebook Page", "url":"https://www.facebook.com/TheJaysVintage",
  "photos":[
   {"img":"thejays0009","cap":"Christmas with the Jays is full of 1940s nostalgia","tags":"Christmas","date":"","download":"-highres","published":""},
-  {"img":"thejays0007","cap":"The Jays at Ashby Christmas Light Switch on. Boy did it rain, but it was still Christmassy","tags":"Christmas","date":"","download":"-highres","published":""},
-  {"img":"thejays0010","cap":"Singing classic Bing Crosby / Andrews Sisters xmas hits","tags":"Christmas","date":"","download":"-highres","published":""},
+  {"img":"thejays0007","cap":"The Jays at Ashby Christmas Lights Switch on. Boy did it rain, but it was still Christmassy","tags":"Christmas","date":"","download":"-highres","published":""},
+  {"img":"thejays0010","cap":"Singing classic Bing Crosby / Andrews Sisters xmas hits at the Tamworth Xmas lights","tags":"Christmas","date":"","download":"-highres","published":""},
   {"img":"thejays0011","cap":"Posing for the local Tamworth Herald Paper","tags":"Christmas","date":"","download":"","published":""}
+ ]
+}
+,
+{
+ "title":"THE FIRST FEW YEARS",
+ "desc":"During the first couple of years years we were a 5 piece vocal group. Unfortunately Jen left us due to life/work pressures at the end of 2014. Jane had to retire to pregancy (she has now had a lovely little boy). Although we are a smaller group, change brings new opportunities.",
+ "published":"YES",
+ "folder":"photos/",
+ "urlTitle":"The Jays Facebook Page", "url":"https://www.facebook.com/TheJaysVintage",
+ "photos":[
+  {"img":"thejays0002","cap":"The Jays at Tamworth Castle Grounds amongst the flowers in 2015","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0001","cap":"The Jays at Tamworth Castle Grounds","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0017","cap":"We had a blast singing at RAF Cosford Veterans day.","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0006","cap":"The Jays perform at Tamworth Band Stand","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0008","cap":"The Jays Vocal Vintage Tribute Group from Tamworth Staffordshire","tags":"","date":"","download":"-highres","published":""}
  ]
 }
 ,
