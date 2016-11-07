@@ -187,10 +187,10 @@ img {
 
 
 #photoPageControlsAbove {
-	color: #FF33EB; width:100%; background-color:#48484a;
+	color: #E06451; width:100%; background-color:#48484a;
 }
 #photoPageControlsBelow {
-	color: #FF33EB; width:100%; background-color:#48484a;
+	color: #E06451; width:100%; background-color:#48484a;
 }
 .pageControl {
 	cursor: pointer; display: inline;background-color:#48484a;

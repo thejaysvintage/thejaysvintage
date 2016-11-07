@@ -24,11 +24,12 @@
   {"img":"thejays0016","cap":"The Jays love to sing vintage classics","tags":"","date":"","download":"-highres","published":""},
   {"img":"thejays0014","cap":"A relaxed shot on the bridge of Andrew, Sophie and Jo (left to right).","tags":"","date":"","download":"-highres","published":""},
   {"img":"thejays0015","cap":"We have alot of fun together... and wear great shoes!","tags":"","date":"","download":"-highres","published":""},
-  {"img":"thejays0005","cap":"Andrew... I'm just leaning on the lamp post...","tags":"","date":"","download":"-highres","published":""},
-  {"img":"thejays0005x","cap":"Sophie...","tags":"","date":"","download":"-highres","published":"NO"},
-  {"img":"thejays0005xx","cap":"Jo...","tags":"","date":"","download":"-highres","published":"NO"},
-  {"img":"thejays0004","cap":"Fly me to the moon","tags":"","date":"","download":"-highres","published":""},
-  {"img":"thejays0003","cap":"A Cheeky Jays Shot","tags":"","date":"","download":"-highres","published":""}
+  {"img":"thejays0032","cap":"Singing in a hanger at RAF Cosford to Veterans","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0020","cap":"Meet the Jays: Sophie","tags":"","date":"","download":"-highres","published":""},  
+  {"img":"thejays0022","cap":"Meet the Jays: Jo","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0003","cap":"Meet the Jays: Andrew. A Cheeky Jays Shot","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0005","cap":"I'm just leaning on the lamp post...","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0004","cap":"Fly me to the moon","tags":"","date":"","download":"-highres","published":""}
  ]
 }
 ,
@@ -47,6 +48,66 @@
 }
 ,
 {
+ "title":"VINTAGE FETES / FAYRES",
+ "desc":"We all love Village Summer Fetes and Vintage Fayres.",
+ "published":"NO",
+ "folder":"photos/",
+ "urlTitle":"", "url":"",
+ "photos":[
+  {"img":"andybgoode0011","cap":"Waving the flag at St Pauls Fete. I wasn't the only one who dressed vintage style","tags":"","date":"","download":"-highres","published":""},
+  {"img":"andybgoode0012","cap":"Singing by the picturesque Dosthill church","tags":"","date":"","download":"-highres","published":""},
+  {"img":"andybgoode0008","cap":"Out together dancing, Cheek to Cheek","tags":"","date":"","download":"-highres","published":""},
+  {"img":"andybgoode0010","cap":"Singing with Passion","tags":"","date":"","download":"-highres","published":""},
+  {"img":"andybgoode0007","cap":"A Traction engine at Norton Juxta Twycross Summer Fete","tags":"","date":"","download":"-highres","published":""},
+  {"img":"andybgoode0018","cap":"A beautiful summers day, with heavy rain showers...of course this is England","tags":"","date":"","download":"-highres","published":""},
+  {"img":"andybgoode0017","cap":"A lovely venue to sing, right by the swimming pool","tags":"","date":"","download":"-highres","published":""}
+ ]
+}
+,
+{
+ "title":"A VERY VINTAGE CHRISTMAS",
+ "desc":"Christmas with Andy B Goode and The Jays is always quite special. We have enjoyed performing some Xmas Lights Switch on events at Tamworth and Ashby-de-la-Zouch. Christmas Parties are quite fun when people sing along to classic Xmas songs from their youth.",
+ "published":"YES",
+ "folder":"photos/",
+ "urlTitle":"The Jays Facebook Page", "url":"https://www.facebook.com/TheJaysVintage",
+ "photos":[
+  {"img":"thejays0009","cap":"Christmas with the Jays is full of 1940s nostalgia","tags":"Christmas","date":"","download":"-highres","published":""},
+  {"img":"thejays0010","cap":"Singing classic Bing Crosby / Andrews Sisters xmas hits at the Tamworth Xmas lights","tags":"Christmas","date":"","download":"-highres","published":""},
+  {"img":"thejays0007","cap":"It's beginning to look alot like Christmas","tags":"Christmas","date":"","download":"-highres","published":""},
+  {"img":"thejays0011","cap":"Posing for the local Tamworth Herald Paper","tags":"Christmas","date":"","download":"","published":""},
+  {"img":"thejays0019","cap":"The Jays at Ashby Christmas Lights Switch on. Boy did it rain, but it was still Christmassy","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0026","cap":"The Tamworth Christmas lights switch on drew a large crowd","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0034","cap":"Tamworth John Lewis, singing to Christmas shoppers","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0024","cap":"Andrew and Sophie at Christmas","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0035","cap":"Christmas at the lovely little church in Norton Juxa Twycross","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0027","cap":"Entertaining at the Wherever bar in Tamworth","tags":"","date":"","download":"-highres","published":""}
+ ]
+}
+,
+{
+ "title":"THE FIRST FEW YEARS",
+ "desc":"During the first couple of years years we were a 5 piece vocal group. Unfortunately Jen left us due to life/work pressures at the end of 2014. Jane had to retire to pregancy (she has now had a lovely little boy). Although we are a smaller group, change brings new opportunities.",
+ "published":"YES",
+ "folder":"photos/",
+ "urlTitle":"The Jays Facebook Page", "url":"https://www.facebook.com/TheJaysVintage",
+ "photos":[
+  {"img":"thejays0008","cap":"The Jays Vocal Vintage Tribute Group from Tamworth Staffordshire","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0025","cap":"Tamworth Town Hall Heritage Day","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0002","cap":"The Jays at Tamworth Castle Grounds amongst the flowers in 2015","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0018","cap":"18 Tamworth Town Hall Heritage Day","tags":"","date":"","download":"-highres","published":"No"},
+  {"img":"thejays0001","cap":"The Jays at Tamworth Castle Grounds","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0006","cap":"The Jays perform at Tamworth Band Stand","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0021","cap":"Meet the Jays: Jane","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0023","cap":"Meet the Jays: Jen","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0031","cap":"Performing at RAF Cosford for the Veterans day was a great privilege","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0030","cap":"We were tucked betwen a Comet and a Spitfire at RAF Cosford","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0017","cap":"We had a blast singing at RAF Cosford Veterans day.","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0029","cap":"There were multiple fly overs","tags":"","date":"","download":"-highres","published":""},
+  {"img":"thejays0033","cap":"At lovely shot of some veterans at RAF Cosford Veterans day","tags":"","date":"","download":"-highres","published":""}
+ ]
+}
+,
+{
  "title":"PRIVATE PARTIES / EVENTS",
  "desc":"Birthday Parties are always fun",
  "published":"No",
@@ -61,55 +122,8 @@
 }
 ,
 {
- "title":"VINTAGE FETES / FAYRES",
- "desc":"We all love Village Summer Fetes and Vintage Fayres.",
- "published":"NO",
- "folder":"photos/",
- "urlTitle":"", "url":"",
- "photos":[
-  {"img":"andybgoode0011","cap":"Waving the flag at St Pauls Fete. I wasn't the only one who dressed vintage style","tags":"","date":"","download":"-highres","published":""},
-  {"img":"andybgoode0012","cap":"Singing by the picturesque Dosthill church","tags":"","date":"","download":"-highres","published":""},
-  {"img":"andybgoode0008","cap":"Out together dancing, Cheek to Cheek","tags":"","date":"","download":"-highres","published":""},
-  {"img":"andybgoode0010","cap":"Singing with Passion","tags":"","date":"","download":"-highres","published":""},
-  {"img":"andybgoode0007","cap":"A Traction engine at Norton Juxta Twycross Summer Fete","tags":"","date":"","download":"-highres","published":""},
-  {"img":"andybgoode0018","cap":"A beautiful summers day, with heavy rain showers...of course this is England","tags":"","date":"","download":"-highres","published":""},
-  {"img":"andybgoode0017","cap":"A lovely venue to sing, right by the swimming pool","tags":"","date":"","download":"-highres","published":""},
-  {"img":"andybgoode0017","cap":"I sang 'Teenager in Love' live on the local radio station TRC FM","tags":"","date":"","download":"","published":"NO"}
- ]
-}
-,
-{
- "title":"A VERY VINTAGE CHRISTMAS",
- "desc":"Christmas with Andy B Goode and The Jays is always quite special. We have enjoyed performing some Xmas Lights Switch on events at Tamworth and Ashby-de-la-Zouch. Christmas Parties are quite fun when people sing along to classic Xmas songs from their youth.",
- "published":"YES",
- "folder":"photos/",
- "urlTitle":"The Jays Facebook Page", "url":"https://www.facebook.com/TheJaysVintage",
- "photos":[
-  {"img":"thejays0009","cap":"Christmas with the Jays is full of 1940s nostalgia","tags":"Christmas","date":"","download":"-highres","published":""},
-  {"img":"thejays0007","cap":"The Jays at Ashby Christmas Lights Switch on. Boy did it rain, but it was still Christmassy","tags":"Christmas","date":"","download":"-highres","published":""},
-  {"img":"thejays0010","cap":"Singing classic Bing Crosby / Andrews Sisters xmas hits at the Tamworth Xmas lights","tags":"Christmas","date":"","download":"-highres","published":""},
-  {"img":"thejays0011","cap":"Posing for the local Tamworth Herald Paper","tags":"Christmas","date":"","download":"","published":""}
- ]
-}
-,
-{
- "title":"THE FIRST FEW YEARS",
- "desc":"During the first couple of years years we were a 5 piece vocal group. Unfortunately Jen left us due to life/work pressures at the end of 2014. Jane had to retire to pregancy (she has now had a lovely little boy). Although we are a smaller group, change brings new opportunities.",
- "published":"YES",
- "folder":"photos/",
- "urlTitle":"The Jays Facebook Page", "url":"https://www.facebook.com/TheJaysVintage",
- "photos":[
-  {"img":"thejays0002","cap":"The Jays at Tamworth Castle Grounds amongst the flowers in 2015","tags":"","date":"","download":"-highres","published":""},
-  {"img":"thejays0001","cap":"The Jays at Tamworth Castle Grounds","tags":"","date":"","download":"-highres","published":""},
-  {"img":"thejays0017","cap":"We had a blast singing at RAF Cosford Veterans day.","tags":"","date":"","download":"-highres","published":""},
-  {"img":"thejays0006","cap":"The Jays perform at Tamworth Band Stand","tags":"","date":"","download":"-highres","published":""},
-  {"img":"thejays0008","cap":"The Jays Vocal Vintage Tribute Group from Tamworth Staffordshire","tags":"","date":"","download":"-highres","published":""}
- ]
-}
-,
-{
  "title":"XXXX",
- "desc":"Txxxx",
+ "desc":"xxxx",
  "published":"NO",
  "folder":"photos/",
  "urlTitle":"", "url":"",
