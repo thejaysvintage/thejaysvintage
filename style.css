@@ -403,6 +403,13 @@ img {
 	border: 1px solid #000000;
 	border-collapse: collapse;
 }
+.boxPanelFullWidthNoBorder {
+	min-width: 98%;
+	width: 98%;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+}
 .boxHeading {
 	font-size: 15px;
 	font-weight: bold;
